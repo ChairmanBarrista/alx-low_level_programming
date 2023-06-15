@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * A C program to print out a statement and return 0
+ * main - serves as the starting point for program execution
+ * Return 0 - Success / no error
  */
 int main(void)
 {
