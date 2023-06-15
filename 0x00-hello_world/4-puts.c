@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 /**
  * A C program to print out a statement and return 0
