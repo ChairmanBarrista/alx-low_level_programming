@@ -5,7 +5,6 @@
  *
  * Return: 0 (Success)
  */
-
 int main(void)
 {
 	int x;
@@ -17,3 +16,4 @@ int main(void)
 	putchar('/n');
 	return (0);
 }
+
