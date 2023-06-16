@@ -6,7 +6,8 @@
  * main - The last digit.
  *
  * Return: Always 0.
- * */
+ *
+ */
 
 int main(void)
 {
