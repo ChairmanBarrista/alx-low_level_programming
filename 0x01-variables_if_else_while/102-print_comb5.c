@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - program that prints all possible combinations of two two-digit numbers.
  *
  * Return: ALways 0 (Success)
  */
-
 int main(void)
 {
 	int x, y;
@@ -21,7 +19,7 @@ int main(void)
 				putchar(' ');
 				putchar((y / 10) + 48);
                                 putchar((y % 10) + 48);
-                                if (x != 98 || y !+ 99)
+                                if (x != 98 || y != 99)
 				{
 					putchar(',');
 					putchar(' ');
