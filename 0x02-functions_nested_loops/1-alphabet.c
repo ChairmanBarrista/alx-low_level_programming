@@ -3,7 +3,7 @@
  * main - Write a function that prints the alphabet, in lowercase, followed by a new line.
  */
 
-int main void print_alphabet(void)
+void print_alphabet(void)
 {
 	char alphabet;
 
