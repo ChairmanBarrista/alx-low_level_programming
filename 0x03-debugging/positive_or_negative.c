@@ -14,11 +14,11 @@ void postive_or_negative(int i)
 	}
 	else if (i > 0)
 	{
-		pritnf("%d is %s\n", i);
+		printf("%d is %s\n", i);
 	}
 	else
 	{
-		pritnf("%d is %s\n", i);
+		printf("%d is %s\n", i);
 	}
 	return;
 }
