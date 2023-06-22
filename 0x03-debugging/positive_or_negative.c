@@ -20,5 +20,5 @@ void postive_or_negative(int i)
 	{
 		pritnf("%d is %s\n", i);
 	}
-	return (0);
+	return;
 }
