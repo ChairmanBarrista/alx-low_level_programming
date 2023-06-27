@@ -22,7 +22,7 @@ void puts2(char *str)
 	x = text - 1;
 	for (a = 0; a <= x; a++)
 	{
-		if (y % 2 == 0)
+		if (a % 2 == 0)
 		{
 			_putchar(str[0]);
 		}
