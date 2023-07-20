@@ -4,7 +4,7 @@
 
 /**
  * print_all - a function that prints anything
- * @format: list of types of arguments passed to the function
+ * @format: list of types of arguments to be passed to function
  */
 
 void print_all(const char * const format, ...)
@@ -16,7 +16,7 @@ void print_all(const char * const format, ...)
 
 	va_start(list, format);
 
-	if (format)
+	if (format)i
 	{
 		while (format[i])
 		{
@@ -37,7 +37,7 @@ void print_all(const char * const format, ...)
 						str = "(nil)";
 						printf("%s%s", sep, str);
 						break;
-					default:
+				default:
 						i++;
 						continue;
 			}
