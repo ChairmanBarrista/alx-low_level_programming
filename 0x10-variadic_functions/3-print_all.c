@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * print_all - a function that prints anything
- * @format: list of types of arguments to be passed to function
+ * print_all - prints anything
+ * @format: list of types of arguments passed to the function
  */
 
 void print_all(const char * const format, ...)
@@ -35,8 +35,8 @@ void print_all(const char * const format, ...)
 					str = va_arg(list, char *);
 					if (!str)
 						str = "(nil)";
-						printf("%s%s", sep, str);
-						break;
+					printf("%s%s", sep, str);
+					break;
 				default:
 					i++;
 					continue;
@@ -49,3 +49,4 @@ void print_all(const char * const format, ...)
 	printf("\n");
 	va_end(list);
 }
+i
